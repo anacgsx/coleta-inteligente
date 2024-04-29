@@ -9,6 +9,9 @@ body {
     padding: 5px;
     max-width: 100%;
     border-bottom: solid 1px #4f7c54;
+    position: sticky;
+    top: 0;
+    background-color: #4f7c54;
 }
 
 .logo{
@@ -31,12 +34,12 @@ body {
 }
 
 header ul li a{
-    color:#4f7c54;
+    color:white;
 }
 
 header ul li a:hover{
-    color:#dff1d6;
-    background-color: #4f7c54;
+    color:yellow;
+    background-color: #1fa32e;
     border-radius: 50px;
     border:solid 10px  #4f7c54;
 }
@@ -89,6 +92,13 @@ header ul li a:hover{
     padding: 2rem 3rem;
     align-items: center;
 }
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    border: solid 0.1px #4f7c54;
+
+}
 .exemplo{
     width: 400px;
 }
@@ -101,7 +111,6 @@ header ul li a:hover{
 }
 
 .container2{
-    background-color: #4f7c54;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +119,6 @@ header ul li a:hover{
 }
 
 .container3{
-    background-color: #4f7c54;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,30 +126,15 @@ header ul li a:hover{
     height: 200px;
 }
 
+.borda {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #4f7c549d;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon {
+    width: 15px;
+}
 
 
 .logo-footer{
