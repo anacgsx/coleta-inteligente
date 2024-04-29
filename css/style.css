@@ -1,0 +1,266 @@
+body {
+    background-color: #dff1d6;
+    color: black;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    max-width: 100%;
+    border-bottom: solid 1px #4f7c54;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 50px;
+}
+.div-logo{
+ margin-left: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap:100px;
+    margin: 10px;
+    padding: 20px;
+    margin-right: 50px;
+    font-family: "Assistant", sans-serif;
+}
+
+header ul li a{
+    color:#4f7c54;
+}
+
+header ul li a:hover{
+    color:#dff1d6;
+    background-color: #4f7c54;
+    border-radius: 50px;
+    border:solid 10px  #4f7c54;
+}
+
+.primeira{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 3rem;
+    align-items: center;
+}
+
+.simbolo{
+    width: 400px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagina-titulo{
+    color: #4f7c54;
+    display: flex;
+    justify-content: center;
+    font-family: "Yeseva One", 400;
+    font-size: 45px;
+    margin: 10px;
+}
+
+.pagina-sobre{
+    color: #3D5440;
+    font-family: "Assistant", sans-serif;
+    margin:30px
+}
+
+.botao{
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 4px;
+    border: solid 1px #4f7c54;
+    background-color:#4f7c54;
+    color:#dff1d6 ;
+}
+
+.segunda{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 3rem;
+    align-items: center;
+}
+.exemplo{
+    width: 400px;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.container2{
+    background-color: #4f7c54;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+}
+
+.container3{
+    background-color: #4f7c54;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-footer{
+    width: 100px;
+    border-radius: 50px;
+}
+.logo_frase{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-right: 80px;
+ gap: 10px;
+ text-align: center;
+ font-family: assistant;
+ font-size: 12px;
+}
+
+footer {
+    width: 100%;
+    background-color:#4f7c54;
+    color: #dff1d6;
+}
+
+.conteudo_footer{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 2.5rem;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.div-contato{
+    padding-right: 80px;
+}
+
+
+.conteudo_footer h3{
+    color: #dff1d6;
+    font-family: yeseva one, 100;
+}
+.conteudo_footer p{
+    font-family: assistant, sans-serif;
+    font-size: 12px;
+}
+
+.links{
+    color: #dff1d6;
+    font-family: assistant;
+}
+.links:hover{
+    border-radius: 50px;
+    border:solid 5px #dff1d6;
+    background-color:#dff1d6;
+    color: #4f7c54;
+   
+}
+
+.formulario{
+    color:#dff1d6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 50px;
+    padding-right: 50px;
+    
+}
+
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2px;
+}
+.caixa h4{
+    font-family: yeseva one, 100;
+}
+
+.div-botao{
+ display: flex;
+ justify-content: center;
+}
+
+.botao-footer{
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: 4px;
+    border: solid 1px #dff1d6;
+    background-color:#dff1d6;
+    color: #4f7c54;
+}
+.botao-footer:hover{
+    width: 115px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 4px;
+    border: solid 1px #dff1d6;
+    background-color:#dff1d6;
+    color: #4f7c54;
+}
+.input{
+    width: 200px;
+    height:25px;
+    margin: 3px;
+}
+
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.sugestoes{
+    width: 300px;
+    height: 90px;
+    margin: 3px;
+}
