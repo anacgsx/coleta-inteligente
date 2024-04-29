@@ -114,7 +114,7 @@ hr {
     gap: 30px;
 }
 
-.container2{
+.container-shape{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,13 +122,6 @@ hr {
     height: 200px;
 }
 
-.container3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 500px;
-    height: 200px;
-}
 
 .container-hover:hover{
     background-color: rgba(173, 245, 38, 0.659);
