@@ -44,7 +44,7 @@ header ul li a:hover{
     border:solid 10px  #4f7c54;
 }
 
-.primeira{
+.template-container{
     display:grid;
     grid-template-columns: 300px 600px;
     grid-template-rows: 400px;
@@ -91,14 +91,6 @@ header ul li a:hover{
     color:#dff1d6 ;
 }
 
-.segunda{
-    display:grid;
-    grid-template-columns: 300px 600px;
-    grid-template-rows: 400px;
-    padding: 2rem 3rem;
-    gap:100px;
-    justify-content: center;
-}
 
 hr {
     width: 80%;
