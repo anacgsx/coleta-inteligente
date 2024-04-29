@@ -39,9 +39,9 @@ header ul li a{
 
 header ul li a:hover{
     color:yellow;
-    background-color: #1fa32e;
-    border-radius: 50px;
-    border:solid 10px  #4f7c54;
+    background-color: rgba(173, 245, 38, 0.659);
+    border-radius: 5px;
+    color: #3D5440;
 }
 
 .template-container{
