@@ -91,6 +91,11 @@ header ul li a:hover{
     color:#dff1d6 ;
 }
 
+.botao:hover{
+    background-color: rgba(173, 245, 38, 0.659);
+    color:#3D5440;
+}
+
 
 hr {
     width: 80%;
