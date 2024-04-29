@@ -122,6 +122,10 @@ hr {
     height: 200px;
 }
 
+.h2-c2 {
+    margin-bottom: 25px;
+}
+
 
 .container-hover:hover{
     background-color: rgba(173, 245, 38, 0.659);
