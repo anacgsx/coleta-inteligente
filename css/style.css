@@ -18,6 +18,7 @@ body {
     width: 80px;
     border-radius: 50px;
 }
+
 .div-logo{
  margin-left: 50px;
 }
@@ -38,9 +39,9 @@ header ul li a{
 }
 
 header ul li a:hover{
-    color:yellow;
-    background-color: rgba(173, 245, 38, 0.659);
-    border-radius: 5px;
+    background-color: #8ecb71;
+    border:solid 3px #8ecb71;
+    border-radius: 30px;
     color: #3D5440;
 }
 
@@ -92,10 +93,9 @@ header ul li a:hover{
 }
 
 .botao:hover{
-    background-color: rgba(173, 245, 38, 0.659);
+    background-color: #dff1d6;
     color:#3D5440;
 }
-
 
 hr {
     width: 80%;
@@ -126,9 +126,9 @@ hr {
     margin-bottom: 25px;
 }
 
-
 .container-hover:hover{
-    background-color: rgba(173, 245, 38, 0.659);
+    background-color: #dff1d6;
+    border: solid 2px #4f7c54;
 }
 
 .borda {
@@ -138,9 +138,8 @@ hr {
 }
 
 .icon {
-    width: 15px;
+    width: 20px;
 }
-
 
 .logo-footer{
     width: 100px;
@@ -151,13 +150,11 @@ hr {
  display: flex;
  flex-direction: column;
  align-items: center;
- padding-right: 80px;
  gap: 10px;
  text-align: center;
  font-family: assistant;
  font-size: 12px;
 }
-
 
 .grid{
     display:grid;
@@ -193,7 +190,7 @@ footer {
 .conteudo_footer{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 1rem 2.5rem;
+    padding:20px 50px;
 }
 
 .contato{
@@ -202,28 +199,22 @@ footer {
     gap: 20px;
     text-align: center;
 }
-.div-contato{
-    padding-right: 80px;
-}
-
 
 .conteudo_footer h3{
     color: #dff1d6;
     font-family: yeseva one, 100;
 }
+
 .conteudo_footer p{
     font-family: assistant, sans-serif;
     font-size: 12px;
 }
 
 .links{
-    color: #dff1d6;
-    font-family: assistant;
-}
-.links:hover{
-    background-color:#bde158;
-    color: #4f7c54;
-    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
 }
 
 .formulario{
@@ -231,19 +222,13 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-right: 50px;
-    padding-right: 50px;
-    
+    margin-right: 50px;  
 }
 
 input {
     border-radius: 5px;
     background-color: #dff1d6;
     border: inset;
-}
-
-input:checked {
-    color: red;
 }
 
 .caixa{
@@ -270,6 +255,7 @@ input:checked {
     background-color:#dff1d6;
     color: #4f7c54;
 }
+
 .botao-footer:hover{
     width: 115px;
     height: 30px;
@@ -279,6 +265,7 @@ input:checked {
     background-color:#dff1d6;
     color: #4f7c54;
 }
+
 .input{
     width: 200px;
     height:25px;
@@ -289,7 +276,7 @@ input:checked {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-right: 20px;
+   
 }
 
 .sugestoes{
