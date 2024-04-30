@@ -233,6 +233,8 @@ hr {
     margin-top:30px;
     font-size: 22pt;
     font-family: "Yeseva One", 400;
+    letter-spacing: 5px;
+    color: #3D5440;
 }
 
 .team-pic {
