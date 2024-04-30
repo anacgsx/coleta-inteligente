@@ -231,6 +231,11 @@ hr {
     text-align: center;
 }
 
+.last-hr {
+    margin-bottom: 50px;
+    margin-top:30px;
+}
+
 footer {
     width: 100%;
     background-color:#4f7c54;
