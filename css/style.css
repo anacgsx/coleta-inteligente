@@ -89,7 +89,7 @@ header ul li a:hover{
     margin-top: 4px;
     border: solid 1px #4f7c54;
     background-color:#4f7c54;
-    color:#dff1d6 ;
+    color:#dff1d6;
 }
 
 .botao:hover{
@@ -120,6 +120,11 @@ hr {
     align-items: center;
     width: 500px;
     height: 200px;
+    margin: -10px;
+}
+
+.text {
+    text-align: justify;
 }
 
 .h2-c2 {
@@ -139,6 +144,11 @@ hr {
 
 .icon {
     width: 20px;
+}
+.icon:hover {
+    background-color: #8ecb71;
+    border: solid 2px #8ecb71;
+    border-radius: 10px;
 }
 
 .logo-footer{
@@ -179,7 +189,30 @@ hr {
 
 .p3 {
     padding: 20px;
+    text-align: justify;
 }
+
+.team-grid {
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 200px;
+    padding: 2rem 3rem;
+    justify-content: center;
+    gap: 130px;
+}
+
+.team-member {
+    background-color: #4f7c549d;
+    border-radius: 20px;
+}
+
+.h3-team {
+    text-align: center;
+    margin-top:30px;
+    font-size: 22pt;
+    font-family: "Yeseva One", 400;
+}
+
 
 footer {
     width: 100%;
