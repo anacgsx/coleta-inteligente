@@ -195,7 +195,7 @@ hr {
 .team-grid {
     display:grid;
     grid-template-columns: 150px 150px 150px 150px 150px;
-    grid-template-rows: 200px;
+    grid-template-rows: 210px;
     padding: 2rem 3rem;
     justify-content: center;
     gap: 130px;
@@ -213,6 +213,23 @@ hr {
     font-family: "Yeseva One", 400;
 }
 
+.team-pic {
+    width: 100px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 24.55px;
+    margin-top: 10px;
+    border: solid 3px #4f7c54;
+}
+
+.name {
+    text-align: center;
+}
+
+.job {
+    font-size: 8pt;
+    text-align: center;
+}
 
 footer {
     width: 100%;
