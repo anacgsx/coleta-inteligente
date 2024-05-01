@@ -144,12 +144,11 @@ hr {
 }
 
 .icon {
-    width: 20px;
+    width: 50px;
 }
 .icon:hover {
     background-color: #8ecb71;
-    border: solid 2px #8ecb71;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 
 .logo-footer{
@@ -279,7 +278,7 @@ footer {
 .links{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 5px;
     justify-content: center;
 }
 
