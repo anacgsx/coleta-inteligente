@@ -14,3 +14,4 @@ Ana Carolina Gomes Soares @anacgsx <br>
 Erika Sebould Gomes @Erika-bs <br>
 Guilherme Viana Ramos Mello @GuiMell0 <br>
 Lucas Valença Oliveira @Lusca-valenca <br>
+Danyel Katra @Danyel-Katra
